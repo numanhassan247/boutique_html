@@ -1,0 +1,217 @@
+body{
+  color: #212529;
+  font-family: 'Lora', serif;
+
+}
+.container {
+  /* max-width: 960px; */
+  max-width: 2000px; 
+}
+footer .container { 
+  max-width: 960px; 
+}
+
+.info-box-section{
+  padding: 0 10rem ;
+  margin: 4rem auto;
+}
+
+.info-box {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  -webkit-border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 2px;
+  -moz-background-clip: padding;
+  border-radius: 2px;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 1px 2px rgba(71, 73, 72, 0.25);
+  -moz-box-shadow: 0 1px 2px rgba(71, 73, 72, 0.25);
+  box-shadow: 0 1px 2px rgba(71, 73, 72, 0.25);
+  /*color: @arguments;*/
+  border-top: #BCD397 solid 3px;
+}
+.info-box .fas{
+  float: right;
+  color: #BCD397;
+  font-size: 2rem;
+  margin: 0 0 1rem 1rem;
+}
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  #mainMenu li{ 
+    font-weight: bold;
+    color: #fff; 
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+.style2{
+
+  
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+
+  
+.banner-item-1 .row .col-lg-6 div{
+  text-align: right;
+  margin: 25% 15% auto auto;
+}
+.banner-item-2 .row .col-lg-6 div{
+  text-align: left;
+  margin: 25% auto auto 15%;
+}
+#bannerMain{
+  margin-top: 60px;
+}
+.navbar{
+  background: #738753 !important;
+}
+.product-box{
+  background: #fff; 
+  border: solid #d4d4d4 1px;
+  color: #212529;
+} 
+.product-box:hover{
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);   
+}
+
+.img-box{
+  width: 95%;
+  background: #fff; 
+  border: solid #d4d4d4 1px;
+}
+
+.img-box img{
+  width: 100%;
+}
+
+
+/**/ 
+h4 {
+  display: flex;
+  /* width: 80%; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem; 
+  background: #BCD397;
+  margin: 1rem 0rem; 
+  font-weight: bold;
+  text-transform: uppercase;
+ 
+}
+
+h4:before,
+h4:after {
+  content: '';
+  border-top: 0px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+h4:after {
+  margin: 0 0 0 20px;
+}
+/**/
+
+.price-tag{
+  position: absolute;
+  top: 110%;
+  right: 0;
+  background: #738753;
+  padding: 1rem;
+  min-width: 15rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/**/ 
+
+.avatar {
+  vertical-align: middle;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  margin:0.5rem 0 0 1rem;
+}
+ 
+
+/* Color Theme Swatches in Hex */
+.boutique-1-hex { color: #EDFFD0; }
+.boutique-2-hex { color: #738753; }
+.boutique-3-hex { color: #BCD397; }
+.boutique-4-hex { color: #794587; }
+.boutique-5-hex { color: #C797D3; } 
