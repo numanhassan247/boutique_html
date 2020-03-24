@@ -234,7 +234,24 @@ h4:after {
   .price-tag{
     min-width: 5rem;
   }
+  .banner-item h3{
+    font-size: 1.5rem;
+  }
+  .banner-item p{
+    font-size: 1rem;
+  }
+  .banner-item .btn{
+    font-size: 0.80rem;
+    font-weight: 400; 
+  }
+  .banner-item-1 .row div div{ 
+    margin: 15% 15% 15% auto;
+  }
+  .banner-item-2 .row div div{ 
+    margin: 15% auto 15% 15%;
+  }
 }
+
 
  
 
